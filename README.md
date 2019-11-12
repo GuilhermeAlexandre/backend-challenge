@@ -45,9 +45,15 @@ scalability.
 
 ## Nice to have features (describe or implement):
 * Asynchronous processing
+ Poderia ter utilizado metodos assincronos para representar a integração com gateway de pagamentos visto que é necessário aguardar o retorno da API.
 * Database
+ Utilizei banco de dados Mysql e JPA.
 * Docker
+ Gostaria de ter implementando os arquivos de confiuraçao do doker para disponbilizar a aplicação em containers porem devido ao curto espaço para desenvolver a aplicação preferi priorizar outras tarefas.
 * AWS
 * Security
+ Criei o model de usuario e gostaria de ter desenvolvido os metodos de autenticaçao com JWT.
 * Swagger
+  Gostaria de ter implentando o swagger no projeto para facilitar a documentação e testes da API.
 * Clean Code
+  Conjunto de boas praticas que falicitam a leitura e entendimento do codigo fonte.
